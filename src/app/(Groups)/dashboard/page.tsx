@@ -3,7 +3,7 @@ import type React from "react";
 
 // interface DashboardPageProps { }
 
-const DashboardStats: React.FC<> = ({ ...props }) => {
+const DashboardStats: React.FC = ({ ...props }) => {
   return (
     <div {...props}>
       <div className="grid grid-cols-4 gap-3 mt-2 p-4">

@@ -9,15 +9,17 @@ import { useIsMobile } from "@app/hooks/use-mobile";
 import { cn } from "@app/lib/utils";
 import { Button } from "@app/features/common/components/ui/button";
 import { Input } from "@app/features/common/components/ui/input";
-import { Separator } from "@app/features/common/components/ui/separator";
-import { Sheet, SheetContent } from "@app/features/common/components/ui/sheet";
+
 import { Skeleton } from "@app/features/common/components/ui/skeleton";
+
+import { Sheet, SheetContent } from "@app/components/ui/sheet";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@app/features/common/components/ui/tooltip";
+} from "@app/components/ui/tooltip";
+import { Separator } from "@app/components/ui/separator";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
