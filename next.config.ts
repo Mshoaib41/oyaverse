@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["https://oyaverse.vercel.app/login"],
+  },
 };
 
 export default nextConfig;

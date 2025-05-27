@@ -36,12 +36,6 @@ const Sidebar: React.FC<SidebarProps> = ({
       activeIcon: "/assets/images/menuActive.png",
       path: "/dashboard",
     },
-    {
-      name: "Parcel For",
-      icon: "/assets/images/usersInactive.png",
-      activeIcon: "/assets/images/usersActive.png",
-      path: "/dataTable",
-    },
   ];
 
   useEffect(() => {
